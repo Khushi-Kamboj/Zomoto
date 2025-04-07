@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to your Zomoto project
 
 ## Project info
@@ -30,6 +29,4 @@ This project is a food delivery platform called Zomoto, built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-=======
-# Zomoto
->>>>>>> fb58f2257855633baa5b345d210102fd58ad3b3c
+
