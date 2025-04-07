@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your Zomoto project
 
 ## Project info
 
@@ -52,7 +52,7 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with:
+This project is a food delivery platform called Zomoto, built with:
 
 - Vite
 - TypeScript

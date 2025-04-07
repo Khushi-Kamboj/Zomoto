@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
@@ -26,7 +25,7 @@ const Index = () => {
                 Delicious Food <br />Delivered To Your Door
               </h1>
               <p className="text-xl opacity-90 mb-8">
-                Choose from a wide variety of cuisines and enjoy quick delivery from top-rated restaurants.
+                Choose from a wide variety of cuisines and enjoy quick delivery from top-rated restaurants with Zomoto.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
                 <Link to="/menu">
@@ -122,11 +121,11 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between">
             <div className="mb-6 md:mb-0">
               <div className="flex items-center space-x-2 mb-4">
-                <span className="text-food-orange text-2xl font-bold">Food</span>
-                <span className="text-food-red text-2xl font-bold">Munch</span>
+                <span className="text-food-orange text-2xl font-bold">Zo</span>
+                <span className="text-food-red text-2xl font-bold">moto</span>
               </div>
               <p className="text-gray-400 max-w-md">
-                Bringing delicious food from the best restaurants right to your doorstep.
+                Bringing delicious food from the best restaurants right to your doorstep with Zomoto.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
@@ -155,7 +154,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 FoodMunch. All rights reserved.</p>
+            <p>&copy; 2025 Zomoto. All rights reserved.</p>
           </div>
         </div>
       </footer>

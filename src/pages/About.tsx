@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '../components/Header';
 
@@ -11,7 +10,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="bg-food-orange text-white py-12">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl font-bold mb-4">About FoodMunch</h1>
+            <h1 className="text-4xl font-bold mb-4">About Zomoto</h1>
             <p className="text-xl max-w-2xl mx-auto">
               We're on a mission to make food delivery simple, fast, and delicious for everyone.
             </p>
@@ -25,7 +24,7 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-bold mb-4">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  FoodMunch was founded in 2023 with a simple idea: make it easy for people to enjoy their favorite foods from local restaurants without having to leave the comfort of their homes.
+                  Zomoto was founded in 2023 with a simple idea: make it easy for people to enjoy their favorite foods from local restaurants without having to leave the comfort of their homes.
                 </p>
                 <p className="text-gray-600 mb-4">
                   What started as a small operation serving just a few neighborhoods has now grown into a platform connecting thousands of customers with their favorite local restaurants.
@@ -37,7 +36,7 @@ const About = () => {
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
                   src="https://images.unsplash.com/photo-1581349437898-cebbe9831942?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="FoodMunch Team" 
+                  alt="Zomoto Team" 
                   className="w-full h-auto"
                 />
               </div>
@@ -140,7 +139,7 @@ const About = () => {
               Have questions, feedback, or just want to say hello? We'd love to hear from you!
             </p>
             <div className="inline-flex space-x-4">
-              <a href="mailto:support@foodmunch.com" className="bg-food-orange hover:bg-food-orange/90 text-white px-6 py-3 rounded-lg font-medium">
+              <a href="mailto:support@zomoto.com" className="bg-food-orange hover:bg-food-orange/90 text-white px-6 py-3 rounded-lg font-medium">
                 Email Us
               </a>
               <a href="tel:+15551234567" className="bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 px-6 py-3 rounded-lg font-medium">
@@ -154,7 +153,7 @@ const About = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2025 FoodMunch. All rights reserved.</p>
+          <p>&copy; 2025 Zomoto. All rights reserved.</p>
         </div>
       </footer>
     </div>
