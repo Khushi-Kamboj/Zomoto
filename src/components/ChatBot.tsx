@@ -17,7 +17,7 @@ type Message = {
 const initialMessages: Message[] = [
   {
     id: '1',
-    text: 'Hello! I\'m FoodMunch Assistant. How can I help you today? You can ask me about menu items, place an order, or get assistance with anything else!',
+    text: 'Hello! I\'m OrderAsisit. How can I help you today? You can ask me about menu items, place an order, or get assistance with anything else!',
     sender: 'bot',
     timestamp: new Date(),
   },
