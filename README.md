@@ -1,32 +1,144 @@
-# Welcome to your Zomoto project
+<h1 align="center">🍔 ZomotoBot</h1>
 
-## Project info
+<p align="center">
+  <b>An AI-powered chatbot that makes food ordering feel like chatting with a friend!</b><br/>
+  <a href="https://zomotobot.netlify.app/" target="_blank">🚀 Live Demo</a>
+</p>
 
-**URL**: 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/yourusername/banner.gif" alt="ZomotoBot Banner" width="100%"/>
+</p>
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📌 Overview
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**ZomotoBot** is a smart food-ordering chatbot designed to simulate natural, human-like conversations. Whether you're craving a pizza, burger, or something exotic, ZomotoBot helps you explore menus, customize orders, and get delivery updates — all in a simple chat interface.
 
-# Step 3: Install the necessary dependencies.
-npm i
+This project focuses on enhancing user experience through conversational UI, bringing together the best of web development and AI!
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 🌐 Live Demo
+
+👉 [Try ZomotoBot Live](https://zomotobot.netlify.app/)
+
+---
+
+## 🎯 Key Features
+
+- 🤖 **Conversational UI** – AI-powered chat interface for a natural ordering experience
+- 📋 **Menu Recommendations** – Explore the menu through suggestions
+- 🛍️ **Order Customization** – Add toppings, sizes, quantities, and more
+- 🕒 **Live Order Tracking** – Simulated delivery status updates
+- 📱 **Responsive Design** – Mobile-friendly and easy to use
+- 🌈 **Interactive UI** – Smooth animations and vibrant design
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/yourusername/screenshot1.png" width="700" alt="Chat Interface" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/yourusername/screenshot2.png" width="700" alt="Order Summary" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/yourusername/screenshot3.png" width="700" alt="Mobile View" />
+</p>
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Category      | Technology             |
+| ------------- | ---------------------- |
+| Frontend      | React.js, CSS3         |
+| Chatbot Logic | Custom NLP / AI logic  |
+| Styling       | Flexbox, CSS Animations|
+| Deployment    | Netlify                |
+
+---
+
+## 📂 Folder Structure
+
+```
+zomotobot/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── ChatBot.js
+│   │   ├── Menu.js
+│   │   └── OrderSummary.js
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
 ```
 
-## What technologies are used for this project?
+---
 
-This project is a food delivery platform called Zomoto, built with:
+## 🚀 Getting Started
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Prerequisites
 
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/zomotobot.git
+cd zomotobot
+npm install
+npm start
+```
+
+Visit `http://localhost:3000` in your browser to use the chatbot locally.
+
+---
+
+## 🔮 Upcoming Features
+
+- ✅ Voice command support
+- ✅ Real-time database integration
+- ✅ Login and user personalization
+- ✅ Payment integration (Stripe/PayPal)
+- ✅ Admin dashboard for restaurant owners
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated! ❤️
+
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature-xyz`)
+3. Make your changes
+4. Commit (`git commit -am 'Add new feature'`)
+5. Push (`git push origin feature-xyz`)
+6. Create a Pull Request
+
+---
+
+## 👩‍💻 Developer
+
+- **Name**: Khushi  
+- **LinkedIn**: [linkedin.com/in/your-profile](#)  
+- **Email**: youremail@example.com  
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  <i>Built with 💬 by Khushi – Let’s make ordering food feel like talking to a friend!</i>
+</p>
