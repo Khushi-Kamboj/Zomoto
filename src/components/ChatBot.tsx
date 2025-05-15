@@ -125,8 +125,8 @@ const ChatBot: React.FC = () => {
         <div className="fixed bottom-24 right-6 w-full max-w-sm bg-white rounded-lg shadow-lg overflow-hidden z-50 border border-gray-200">
           {/* Chat header */}
           <div className="bg-food-orange text-white p-4 flex justify-between items-center">
-            <h3 className="font-bold">FoodMunch Assistant</h3>
-            <Button 
+            <h3 className="font-bold">Zo-moto Assistant</h3>
+            <Button
               variant="ghost" 
               size="icon" 
               onClick={toggleChat}
