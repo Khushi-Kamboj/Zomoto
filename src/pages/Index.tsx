@@ -16,13 +16,14 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-          <section className="relative overflow-hidden bg-gradient-to-br from-food-orange via-food-red to-[#ff3131] text-white">
+      {/* Hero section */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-food-orange via-food-red to-[#ff3131] text-white">
             {/* Decorative shapes */}
-            <div className="absolute -top-24 -right-24 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+            <div className="absolute -top-12 -right-12 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
 
             {/* Food pattern overlay */}
-            <div className="absolute inset-0 opacity-5"></div>
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/food.png')] opacity-5"></div>
 
             <div className="container mx-auto px-4 py-16 md:py-32 relative z-10">
               <div className="grid md:grid-cols-2 items-center gap-8 md:gap-12">
@@ -57,7 +58,9 @@ const Index = () => {
                       </Button>
                     </Link>
                     <Link to="/about">
-                      <Button variant="outline" className="border-2 border-white text-white hover:bg-white/20 px-8 py-6 text-lg font-medium rounded-full">
+                      <Button variant="outline" className="border-2 text-food-red border-white hover:bg-gray-800 px-8
+                      py-6
+                      text-lg font-medium rounded-full">
                         Learn More
                       </Button>
                     </Link>
