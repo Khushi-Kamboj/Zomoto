@@ -138,7 +138,7 @@ const About = () => {
               font-medium">
                 Email Us
               </a>
-              <a href="+91 9306605503" className="bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 px-6
+              <a href="+91 9306222222" className="bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 px-6
               py-3
               rounded-lg font-medium">
                 Call Us
