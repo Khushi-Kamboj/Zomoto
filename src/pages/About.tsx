@@ -39,7 +39,7 @@ const About = () => {
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1581349437898-cebbe9831942?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80"
                   alt="Zomoto Team" 
                   className="w-full h-auto"
                 />
@@ -100,7 +100,7 @@ const About = () => {
               <div className="text-center">
                 <div className="h-48 w-48 mx-auto rounded-full overflow-hidden mb-4">
                   <img
-                    src="https://github.com/Khushi-Kamboj/Zomoto/blob/main/imageKhushi.jpg"
+                    src="https://raw.githubusercontent.com/Khushi-Kamboj/Zomoto/main/imageKhushi.jpg"
                     alt="Khushi"
                     className="w-full h-full object-cover"
                   />

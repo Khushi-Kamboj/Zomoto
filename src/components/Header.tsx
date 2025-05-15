@@ -1,30 +1,9 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { ShoppingCart, Menu, X } from 'lucide-react';
-import { useCart } from '../context/CartContext';
-import { Button } from '@/components/ui/button';
-import Cart from './Cart';
-
-const Header = () => {
-  const { getTotalItems } = useCart();
-  const [isCartOpen, setIsCartOpen] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  const toggleCart = () => {
-    setIsCartOpen(!isCartOpen);
-  };
-  
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  return (
-    <header className="sticky top-0 z-50 bg-white shadow-md">
-      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-food-orange text-2xl font-bold">Zo</span>
-          <span className="text-food-red text-2xl font-bold">moto</span>
+            <img
+              src="https://raw.githubusercontent.com/Khushi-Kamboj/Zomoto/main/logo.png"
+              alt="Zomoto Logo"
+              className="w-10 h-10 object-contain"
+            />
         </Link>
         
         {/* Desktop Navigation */}
