@@ -128,8 +128,8 @@ Contributions are welcome and appreciated! ❤️
 ## 👩‍💻 Developer
 
 - **Name**: Khushi  
-- **LinkedIn**: [linkedin.com/in/your-profile](#)  
-- **Email**: youremail@example.com  
+- **LinkedIn**: [https://www.linkedin.com/in/khushikamboj5/](#)  
+- **Email**: khushikamboj123456@gmail.com 
 
 ---
 
