@@ -19,7 +19,7 @@ const Index = () => {
       {/* Hero section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-food-orange via-food-red to-[#ff3131] text-white">
             {/* Decorative shapes */}
-            <div className="absolute -top-24 -right-24 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+            <div className="absolute -top-12 -right-24 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
 
             {/* Food pattern overlay */}
@@ -58,7 +58,7 @@ const Index = () => {
                       </Button>
                     </Link>
                     <Link to="/about">
-                      <Button variant="outline" className="border-2 border-white text-white hover:bg-white/20 px-8 py-6 text-lg font-medium rounded-full">
+                      <Button variant="outline" className="border-2 border-white text-white hover:bg-gray-800 px-8 py-6 text-lg font-medium rounded-full">
                         Learn More
                       </Button>
                     </Link>
@@ -198,11 +198,11 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between">
             <div className="mb-6 md:mb-0">
               <div className="flex items-center space-x-2 mb-4">
-                <span className="text-food-orange text-2xl font-bold">Zo</span>
+                <span className="text-food-orange text-2xl font-bold">Zo-</span>
                 <span className="text-food-red text-2xl font-bold">moto</span>
               </div>
               <p className="text-gray-400 max-w-md">
-                Bringing delicious food from the best restaurants right to your doorstep with Zomoto.
+                Bringing delicious food from the best restaurants right to your doorstep with Zo-moto.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
