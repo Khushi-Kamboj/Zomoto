@@ -24,7 +24,11 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-bold mb-4">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Zomoto was founded in 2023 with a simple idea: make it easy for people to enjoy their favorite foods from local restaurants without having to leave the comfort of their homes.
+                  Zomoto is a food delivery web application developed as a clone of the popular platform Zomato.
+                  Built in 2025 as part of a personal project, Zomoto aims to replicate the core features of a modern food delivery service — allowing users to browse restaurants, explore menus, place orders, and track deliveries seamlessly.
+                  This project was created to strengthen my skills in frontend and backend development, focusing on building a responsive UI, integrating dynamic restaurant data, and simulating real-world food delivery workflows. Zomoto reflects both my passion for web development and my interest in creating user-centric applications that solve everyday problems.
+
+
                 </p>
                 <p className="text-gray-600 mb-4">
                   What started as a small operation serving just a few neighborhoods has now grown into a platform connecting thousands of customers with their favorite local restaurants.
@@ -88,49 +92,36 @@ const About = () => {
           </div>
         </section>
         
-        {/* Team Section */}
+        {/* Meet the Developer Section */}
         <section className="py-12">
           <div className="container mx-auto px-4">
-            <h2 className="text-2xl font-bold mb-8 text-center">Meet Our Team</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                {
-                  name: "Alex Johnson",
-                  role: "Founder & CEO",
-                  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-                },
-                {
-                  name: "Sarah Chen",
-                  role: "COO",
-                  image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-                },
-                {
-                  name: "Michael Torres",
-                  role: "Head of Operations",
-                  image: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-                },
-                {
-                  name: "Priya Patel",
-                  role: "Marketing Director",
-                  image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-                }
-              ].map((member, index) => (
-                <div key={index} className="text-center">
-                  <div className="h-48 w-48 mx-auto rounded-full overflow-hidden mb-4">
-                    <img 
-                      src={member.image} 
-                      alt={member.name} 
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold">{member.name}</h3>
-                  <p className="text-gray-600">{member.role}</p>
+            <h2 className="text-2xl font-bold mb-8 text-center">Meet the Developer</h2>
+            <div className="flex justify-center mb-8">
+              <div className="text-center">
+                <div className="h-48 w-48 mx-auto rounded-full overflow-hidden mb-4">
+                  <img
+                    src="https://via.placeholder.com/300"
+                    alt="Khushi"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-              ))}
+                <h3 className="text-xl font-bold">Khushi</h3>
+                <p className="text-gray-600">Full Stack Developer</p>
+              </div>
+            </div>
+            <div className="max-w-3xl mx-auto text-center text-gray-700 text-base leading-relaxed">
+              <p className="mb-4">
+                Zo-moto is a solo project developed by <strong>Khushi</strong>, who took on every role—from frontend
+                design and backend development to testing and deployment. This section showcases a typical team structure found in professional platforms, but in reality, every feature, layout, and line of code was crafted independently as part of a learning journey and passion for web development.
+              </p>
+              <p>
+                What might look like a team effort is the result of one developer’s dedication to building a fully functional, user-friendly food delivery application from the ground up.
+              </p>
             </div>
           </div>
         </section>
-        
+
+
         {/* Contact Section */}
         <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4 text-center">
@@ -139,17 +130,22 @@ const About = () => {
               Have questions, feedback, or just want to say hello? We'd love to hear from you!
             </p>
             <div className="inline-flex space-x-4">
-              <a href="mailto:support@zomoto.com" className="bg-food-orange hover:bg-food-orange/90 text-white px-6 py-3 rounded-lg font-medium">
+              <a href="khushikamboj123456@gmail.com" className="bg-food-orange hover:bg-food-orange/90 text-white px-6
+              py-3
+              rounded-lg
+              font-medium">
                 Email Us
               </a>
-              <a href="tel:+15551234567" className="bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 px-6 py-3 rounded-lg font-medium">
+              <a href="+91 9306605503" className="bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 px-6
+              py-3
+              rounded-lg font-medium">
                 Call Us
               </a>
             </div>
           </div>
         </section>
       </main>
-      
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto px-4 text-center">

@@ -92,7 +92,7 @@ export const restaurants: Restaurant[] = [
     cuisine: "Indian",
     rating: 4.6,
     deliveryTime: "25-35 min",
-    image: "https://images.unsplash.com/photo-1534077293674-25df3425fd74?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    image: "https://ibb.co/gMzKDCv9",
     featured: true
   },
   {
