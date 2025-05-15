@@ -100,7 +100,7 @@ const About = () => {
               <div className="text-center">
                 <div className="h-48 w-48 mx-auto rounded-full overflow-hidden mb-4">
                   <img
-                    src="https://via.placeholder.com/300"
+                    src="imageKhushi.jpg"
                     alt="Khushi"
                     className="w-full h-full object-cover"
                   />
