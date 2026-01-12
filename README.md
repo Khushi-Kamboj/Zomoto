@@ -21,7 +21,7 @@ This project focuses on enhancing user experience through conversational UI, bri
 
 ## 🌐 Live Demo
 
-👉 [Try ZomotoBot Live](https://zomotobot.netlify.app/)
+👉 [Try ZomotoBot Live](https://zomotokhushi.netlify.app/)
 
 ---
 
