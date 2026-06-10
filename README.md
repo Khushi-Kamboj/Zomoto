@@ -36,22 +36,6 @@ This project focuses on enhancing user experience through conversational UI, bri
 
 ---
 
-## 🖼️ Screenshots
-
-<p align="center">
-  <img src="https://github.com/Khushi-Kamboj/Zomoto/home.png" width="700" alt="Chat Interface" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/khushi-kamboj/cart.png" width="700" alt="Order Summary" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/khushi-kamboj/about.png" width="700" alt="Mobile View" />
-</p>
-
----
-
 ## 🧑‍💻 Tech Stack
 
 | Category      | Technology             |
